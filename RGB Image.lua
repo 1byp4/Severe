@@ -1,10 +1,10 @@
 local img = Drawing.new("Image")
-img.Url = config.url
-img.Color = config.color
-img.Visible = config.visible
-img.zIndex = config.zindex
-img.Position = config.position
-img.Size = config.size
+img.Url = _G.config.url
+img.Color = _G.config.color
+img.Visible = _G.config.visible
+img.zIndex = _G.config.zindex
+img.Position = _G.config.position
+img.Size = _G.config.size
 
 local function tween(startcol, tinfo, goalcol, updcb)
 	local config = {
